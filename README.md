@@ -3,17 +3,6 @@
 `BlockMosh` は、AviUtl / 拡張編集向けのブロックグリッチ用スクリプトです。
 
 映像を四角いブロック単位で崩し、データ破損、ブロックノイズ、画面が一瞬だけ壊れるようなモッシュ表現を作れます。
-
-## 収録内容
-
-```text
-block_mosh\
-  @BlockMosh.obj
-  block_mosh_core.dll
-```
-
-配布内容によっては、開発用ファイルとして `.c`、`.bat`、`.def`、`.a` が入っている場合があります。通常使用では `@BlockMosh.obj` と `block_mosh_core.dll` を使います。
-
 ## インストール
 
 `block_mosh` フォルダを AviUtl の `script` フォルダに入れてください。
@@ -64,3 +53,6 @@ C:\aviutl110\script\
 - DLL を使用するため、環境によっては Windows やセキュリティソフトの確認が入る場合があります。
 - 高解像度や重い設定ではプレビューが遅くなることがあります。
 - 重要なプロジェクトで使う前にバックアップをおすすめします。
+- 詳しい仕様は以下をご覧ください。
+https://youtu.be/XgwEh8XKSHk
+https://www.nicovideo.jp/watch/sm46275428
