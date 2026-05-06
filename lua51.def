@@ -1,0 +1,9 @@
+LIBRARY lua51.dll
+EXPORTS
+lua_touserdata
+luaL_checknumber
+luaL_optnumber
+lua_settop
+lua_createtable
+lua_pushcclosure
+lua_setfield
